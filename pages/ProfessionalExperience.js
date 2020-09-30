@@ -38,15 +38,15 @@ export default function ProfessionalExperience() {
           • Built durable, fault tolerant APIs hosted on Azure Service Fabric.
         </ListItem>
         <ListItem>
+          • Refactored persistence layer of a microservice from CosmosDB to
+          Table Storage.
+        </ListItem>
+        <ListItem>
+          • Used Azure Relay to expand hybrid-cloud communication models.
+        </ListItem>
+        <ListItem>
           • Collaborated with QA in ensuring the code is well covered with
           Unit/Integration tests.
-        </ListItem>
-        <ListItem>
-          • Refactored persistence layer of a microservice from CosmosDB (Mongo)
-          to Table Storage
-        </ListItem>
-        <ListItem>
-          • Use of Azure Relay to expand hybrid-cloud communication models.
         </ListItem>
       </Card>
       <Card>
@@ -63,9 +63,9 @@ export default function ProfessionalExperience() {
         <ListItem>
           • Studied <LightBold>Clean Code</LightBold> By Robert Martin.
         </ListItem>
+        <ListItem>• Completed both independent and team assignments</ListItem>
         <ListItem>
-          • Completed both independent and team assignments, creating full stack
-          web applications from start to production.
+          • Created full stack web applications from start to production.
         </ListItem>
         <ListItem>
           • Paired with senior developers on production frontend code.

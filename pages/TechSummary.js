@@ -21,14 +21,14 @@ export default function TechSummary() {
         <FontAwesomeIcon icon={faKeyboard} size={"1x"} /> Technical Summary
       </Title>
       <Indented>
-        <Skill>React • Typescript</Skill>
-        <Skill>C# • .NET</Skill> <Skill>NodeJS</Skill> <Skill>ASP.NET</Skill>
+        <Skill>React • Typescript</Skill> <Skill>NodeJS</Skill>
+        <Skill>C# • .NET</Skill> <Skill>ASP.NET</Skill>
         <Skill>Java</Skill>
-        <Skill>Azure Application Insights • Log Analytics</Skill>
+        <Skill>Azure Application Insights</Skill>
         <Skill>Azure Devops Pipelines</Skill>
         <Skill>Azure Storage</Skill>
         <Skill>Mongo</Skill>
-        <Skill>MSSQL</Skill>
+        <Skill>SQL</Skill>
       </Indented>
     </Container>
   );
