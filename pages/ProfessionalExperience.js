@@ -19,7 +19,7 @@ const Container = styled(Content)`
 export default function ProfessionalExperience() {
   return (
     <Container>
-      <Title>
+      <Title style={{ textAlign: "left" }}>
         <FontAwesomeIcon size={"1x"} icon={faDesktop} /> Professional Experience
       </Title>
       <Card>
@@ -61,8 +61,7 @@ export default function ProfessionalExperience() {
           • Learned TDD through practice and Kata’s of non-production code.
         </ListItem>
         <ListItem>
-          • Participated in book club-style discussions while reading{" "}
-          <LightBold>Clean Code</LightBold> By Robert Martin.
+          • Studied <LightBold>Clean Code</LightBold> By Robert Martin.
         </ListItem>
         <ListItem>
           • Completed both independent and team assignments, creating full stack
