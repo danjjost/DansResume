@@ -1,7 +1,7 @@
 import { faBookOpen } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styled from "styled-components";
-import { Title, Bold, Subtext, Indented, Content } from "../Styles/Styles.js";
+import { Title, Bold, Subtext, Indented, Content } from "../public/Styles.js";
 
 const Container = styled(Content)`
   grid-area: Education;

@@ -1,6 +1,6 @@
 import Head from "next/head";
 import styled from "styled-components";
-import { FadeIn } from "../Styles/Styles";
+import { FadeIn } from "../public/Styles";
 import Bio from "./Bio";
 import ContactInfo from "./ContactInfo";
 import Education from "./Education";

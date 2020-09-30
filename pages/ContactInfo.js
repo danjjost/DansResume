@@ -2,7 +2,7 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faMobileAlt } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styled from "styled-components";
-import { Title, Content, Indented, Link } from "../Styles/Styles.js";
+import { Title, Content, Indented, Link } from "../public/Styles.js";
 
 const Container = styled(Content)`
   grid-area: ContactInfo;

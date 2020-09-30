@@ -1,7 +1,7 @@
 import { faKeyboard } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styled from "styled-components";
-import { Content, Indented, Title } from "../Styles/Styles.js";
+import { Content, Indented, Title } from "../public/Styles.js";
 
 const Skill = styled.div`
   font-weight: 500;
