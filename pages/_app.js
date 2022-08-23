@@ -1,3 +1,4 @@
+import * as React from 'react';
 import "../styles/globals.css";
 import { createGlobalStyle } from "styled-components";
 import { config, dom } from "@fortawesome/fontawesome-svg-core";

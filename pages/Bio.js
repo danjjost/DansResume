@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import * as React from 'react';
 
 const BioStyles = styled.div`
   padding: 0.25rem 1.5rem;

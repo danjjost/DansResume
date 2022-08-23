@@ -5,8 +5,9 @@ import Bio from "./Bio";
 import ContactInfo from "./ContactInfo";
 import Education from "./Education";
 import ProfessionalExperience from "./ProfessionalExperience";
-import TechSummary from "./TechSummary";
+import TechnicalSummary from "./TechnicalSummary";
 import Header from "./Header";
+import * as React from "react";
 
 const Body = styled.div`
   display: flex;
@@ -20,14 +21,14 @@ const Grid = styled.div`
   grid-row-gap: 2rem;
   grid-column-gap: 2rem;
   grid-template-columns: 8fr 3fr;
-  grid-template-areas: "Bio Bio" "ProfessionalExperience TechSummary" "ProfessionalExperience Education" "ProfessionalExperience ContactInfo";
+  grid-template-areas: "Bio Bio" "ProfessionalExperience TechnicalSummary" "ProfessionalExperience Education" "ProfessionalExperience ContactInfo";
   max-width: 900px;
   animation: ${FadeIn} 0.5s ease-in;
   margin-bottom: 5rem;
   @media (max-width: 700px) {
     grid-template-columns: 1fr;
     grid-row-gap: 3rem;
-    grid-template-areas: "Bio" "ProfessionalExperience" "Education" "TechSummary" "ContactInfo";
+    grid-template-areas: "Bio" "ProfessionalExperience" "Education" "TechnicalSummary" "ContactInfo";
   }
 `;
 
@@ -52,7 +53,7 @@ export default function Home() {
         <Grid>
           <Bio />
           <ProfessionalExperience />
-          <TechSummary />
+          <TechnicalSummary />
           <Education />
           <ContactInfo />
         </Grid>

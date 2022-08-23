@@ -3,6 +3,7 @@ import { faEnvelope, faMobileAlt } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styled from "styled-components";
 import { Title, Content, Indented, Link } from "../public/Styles.js";
+import * as React from 'react';
 
 const Container = styled(Content)`
   grid-area: ContactInfo;

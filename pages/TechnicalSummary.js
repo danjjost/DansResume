@@ -2,6 +2,7 @@ import { faKeyboard } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styled from "styled-components";
 import { Content, Indented, Title } from "../public/Styles.js";
+import * as React from "react";
 
 const Skill = styled.div`
   font-weight: 500;
@@ -11,22 +12,23 @@ const Skill = styled.div`
 `;
 
 const Container = styled(Content)`
-  grid-area: TechSummary;
+  grid-area: TechnicalSummary;
 `;
 
-export default function TechSummary() {
+export default function TechnicalSummary() {
   return (
     <Container>
       <Title>
         <FontAwesomeIcon icon={faKeyboard} size={"1x"} /> Technical Summary
       </Title>
       <Indented>
-        <Skill>React • Typescript</Skill> <Skill>NodeJS</Skill>
-        <Skill>C# • .NET</Skill> <Skill>ASP.NET</Skill>
+        <Skill>React • Next.js</Skill> <Skill>Node.js • Typescript</Skill>
+        <Skill>React Native • Flutter</Skill>
+        <Skill>AWS • DynamoDB</Skill>
+        <Skill>Microsoft Azure • CosmosDB</Skill>
+        <Skill>C# • ASP.NET</Skill>
         <Skill>Java</Skill>
-        <Skill>Azure Application Insights</Skill>
-        <Skill>Azure Devops Pipelines</Skill>
-        <Skill>Azure Storage</Skill>
+        <Skill>Dart</Skill>
         <Skill>Mongo</Skill>
         <Skill>SQL</Skill>
       </Indented>
