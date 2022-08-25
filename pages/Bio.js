@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import * as React from 'react';
+import * as React from "react";
 
 const BioStyles = styled.div`
   padding: 0.25rem 1.5rem;
@@ -16,8 +16,9 @@ export default function Bio() {
   return (
     <Container>
       <BioStyles>
-        Full stack developer with strong .NET back-end experience and a passion
-        for all things front-end. My current focus is React and Microservices.
+        Full stack developer with strong .NET / Node.js back-end experience and
+        a passion for all things front-end. My current focus is React and
+        Microservices.
       </BioStyles>
     </Container>
   );

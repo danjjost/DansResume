@@ -31,8 +31,6 @@ export default function ProfessionalExperience() {
       <KarmakSoftwareDeveloper />
 
       <KarmakSoftwareApprentice />
-
-      <CampWartburg />
     </Container>
   );
 }
@@ -43,15 +41,15 @@ const IndependentFreelancing = () => (
       Freelance Developer <Subtext>Independent, 3/2022 - Present</Subtext>
     </Bold>
     <ListItem>
-      Created projects for both personal use and for clients to increase my
-      proficiency in new platforms.
+      Created applications for clients and for personal use to increase my
+      proficiency with new platforms.
     </ListItem>
     <ListItem>
       • Learned cross-platform development frameworks such as Flutter and React
       Native.
     </ListItem>
     <ListItem>
-      • Developed fullstack applications from inception to production.
+      • Developed fullstack applications from start to production.
     </ListItem>
     <ListItem>
       • Gained experience in directly communicating feature priority and
@@ -67,19 +65,19 @@ const ShipworksSoftwareDeveloper = () => (
     </Bold>
     <ListItem>
       Worked as part of a small, purpose-oriented team and collaborated with
-      other teams to maintain, enhance, and migrate our flagship product to the
+      other teams to support, improve, and migrate our flagship product to the
       cloud.
     </ListItem>
     <ListItem>
-      • Played a key role in supporting vital integrations with major platforms
+      • Played a key role in preserving vital integrations with major platforms
       such as Ebay and Amazon.
     </ListItem>
     <ListItem>
-      • Partnered with support agents and product management in swiftly
-      addressing client issues and communicating with ecommerce customers.
+      • Partnered with support agents and product management to swiftly address
+      client issues and communicate with our ecommerce customers.
     </ListItem>
     <ListItem>
-      • Used AWS Lambda and the Serverless framework to rapidly and seamless
+      • Used AWS Lambda and the Serverless framework to rapidly and seamlessly
       replace aging client functionality with durable cloud alternatives.
     </ListItem>
   </Card>
@@ -134,26 +132,6 @@ const KarmakSoftwareApprentice = () => (
     </ListItem>
     <ListItem>
       • Paired with senior developers on production frontend code.
-    </ListItem>
-  </Card>
-);
-
-const CampWartburg = () => (
-  <Card>
-    <Bold>
-      Group Course/Highropes Facilitator{" "}
-      <Subtext>Camp Wartburg, 2017-2019</Subtext>
-    </Bold>
-    <ListItem>
-      Led team building activities through high/low ropes courses for private
-      groups.
-    </ListItem>
-    <ListItem>
-      • Instructed and assisted patrons in potentially hazardous environments.
-    </ListItem>
-    <ListItem>
-      • Facilitated productive group conversations with a focus on problem
-      solving.
     </ListItem>
   </Card>
 );
