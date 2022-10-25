@@ -8,6 +8,7 @@ import ProfessionalExperience from "./ProfessionalExperience";
 import TechnicalSummary from "./TechnicalSummary";
 import Header from "./Header";
 import * as React from "react";
+import { Sidebar } from "./Sidebar";
 
 const Body = styled.div`
   display: flex;
@@ -53,9 +54,7 @@ export default function Home() {
         <Grid>
           <Bio />
           <ProfessionalExperience />
-          <TechnicalSummary />
-          <Education />
-          <ContactInfo />
+          <Sidebar />
         </Grid>
       </Body>
     </Container>

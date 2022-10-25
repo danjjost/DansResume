@@ -67,9 +67,14 @@ export const LightBold = styled.span`
   font-weight: 620;
 `;
 
-export const Bold = styled.span`
+export const Header = styled.span`
   font-weight: 500;
   font-size: 1.05rem;
+`;
+
+export const SubHeader = styled.span`
+  font-weight: 500;
+  font-size: 0.9rem;
 `;
 
 export const Subtext = styled.span`

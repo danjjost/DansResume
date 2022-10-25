@@ -1,8 +1,8 @@
 import { faBookOpen } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styled from "styled-components";
-import { Title, Bold, Subtext, Indented, Content } from "../public/Styles.js";
-import * as React from 'react';
+import { Title, Header, Subtext, Indented, Content } from "../public/Styles.js";
+import * as React from "react";
 
 const Container = styled(Content)`
   grid-area: Education;
@@ -19,10 +19,12 @@ export default function Education() {
         <FontAwesomeIcon size={"1x"} icon={faBookOpen} /> Education
       </Title>
       <Indented>
-        <Bold>
+        <Header>
           Southwestern Illinois College <Subtext>2017-2019</Subtext>
-        </Bold>
+        </Header>
         <GPA>3.7 Cumulative GPA</GPA>
+        <GPA>Java I</GPA>
+        <GPA>Java II</GPA>
       </Indented>
     </Container>
   );
