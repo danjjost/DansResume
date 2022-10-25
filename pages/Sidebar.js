@@ -3,7 +3,7 @@ import ContactInfo from "./ContactInfo";
 import Education from "./Education";
 import TechnicalSummary from "./TechnicalSummary";
 
-export const Sidebar = () => {
+export default function Sidebar() {
   return (
     <div>
       <TechnicalSummary />
@@ -13,4 +13,4 @@ export const Sidebar = () => {
       <ContactInfo />
     </div>
   );
-};
+}
