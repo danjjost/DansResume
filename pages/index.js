@@ -8,7 +8,7 @@ import ProfessionalExperience from "./ProfessionalExperience";
 import TechnicalSummary from "./TechnicalSummary";
 import Header from "./Header";
 import * as React from "react";
-import { Sidebar } from "./Sidebar";
+import Sidebar from "./Sidebar";
 
 const Body = styled.div`
   display: flex;
