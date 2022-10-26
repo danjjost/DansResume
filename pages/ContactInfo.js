@@ -3,7 +3,7 @@ import { faEnvelope, faMobileAlt } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styled from "styled-components";
 import { Title, Content, Indented, Link } from "../public/Styles.js";
-import * as React from 'react';
+import * as React from "react";
 
 const Container = styled(Content)`
   grid-area: ContactInfo;
@@ -34,7 +34,7 @@ export default function ContactInfo() {
         </Link>
         <ContactMethod>
           <FontAwesomeIcon size={"1x"} icon={faMobileAlt} color={"darkblue"} />{" "}
-          (614) 662-0255‬
+          (314) 944-3846
         </ContactMethod>
       </Indented>
     </Container>
