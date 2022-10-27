@@ -63,8 +63,9 @@ export const Row = styled.div`
   flex-direction: column;
 `;
 
-export const LightBold = styled.span`
-  font-weight: 620;
+export const InLineTechStack = styled.span`
+  font-weight: 500;
+  font-size: 0.9rem;
 `;
 
 export const Header = styled.span`

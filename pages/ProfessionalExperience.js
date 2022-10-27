@@ -3,7 +3,7 @@ import {
   ListItem,
   Title,
   Subtext,
-  LightBold,
+  InLineTechStack,
   Content,
   Link,
   SubHeader,
@@ -42,19 +42,25 @@ const IndependentFreelancing = () => (
       Freelance Developer <Subtext>Independent, 3/2022 - Present</Subtext>
     </Header>
     <ListItem>
-      <SubHeader>Collegiate Tutor</SubHeader>
+      <SubHeader>Seatitude Startup</SubHeader>
       <br />
       <ListItem>
-        Worked as a private tutor for a 4th year Computer Science student in
-        anticipation of final semester exams.
-      </ListItem>
-      <ListItem>• Learned entry-level Angular for tutoring purposes.</ListItem>
-      <ListItem>
-        • Provided mentorship in React, Node.js/Express, .NET, and Angular.
+        Worked as part of a small agile team to create a table management
+        application for a local restaurant.
       </ListItem>
       <ListItem>
-        • Provided guidance in establishing non-mandatory CI/CD pipelines for
-        Git to Azure App Service deployments.
+        • Directly participated in finding, vetting, and recruiting additional
+        talent for the project.
+      </ListItem>
+      <ListItem>
+        • Built a <InLineTechStack>.NET/AWS Lambda</InLineTechStack> backend
+        from scratch and integrated with a{" "}
+        <InLineTechStack>React Native</InLineTechStack> frontend spearheaded by
+        my peers.
+      </ListItem>
+      <ListItem>
+        • Participated in bi-weekly stakeholder meetings, often assisting in
+        prioritizing new features.
       </ListItem>
     </ListItem>
     <ListItem>
@@ -65,8 +71,8 @@ const IndependentFreelancing = () => (
         new platform for their business.
       </ListItem>
       <ListItem>
-        • Designed and implemented a full-stack prototype using Flutter,
-        Node.js, and AWS Lambda.
+        • Designed and implemented a full-stack prototype using{" "}
+        <InLineTechStack>Flutter, Node.js, and AWS Lambda</InLineTechStack>.
       </ListItem>
       <ListItem>
         • Took care to be auctioneer agnostic, with the long-term goal of
@@ -78,23 +84,22 @@ const IndependentFreelancing = () => (
       </ListItem>
     </ListItem>
     <ListItem>
-      <SubHeader>Seatitude Startup</SubHeader>
+      <SubHeader>Collegiate Tutor</SubHeader>
       <br />
       <ListItem>
-        Worked with a small startup to create a mobile app for a local
-        restaurant owner.
+        Briefly worked as a private tutor for 4th year Computer Science
+        students.
       </ListItem>
       <ListItem>
-        • Built a .NET/AWS Lambda backend and integrated with a React Native
-        frontend.
+        • Provided mentorship in{" "}
+        <InLineTechStack>
+          React, Node.js/Express, .NET, and entry-level Angular.
+        </InLineTechStack>
       </ListItem>
       <ListItem>
-        • Participated in bi-weekly stakeholder meetings, often assisting in
-        prioritizing new features.
-      </ListItem>
-      <ListItem>
-        • Participated in finding, vetting, and recruiting additional talent for
-        the project.
+        • Assisted in establishing <InLineTechStack>CI/CD</InLineTechStack>{" "}
+        pipelines for <InLineTechStack>Azure App Service</InLineTechStack>{" "}
+        deployments.
       </ListItem>
     </ListItem>
   </Card>
@@ -111,17 +116,18 @@ const ShipworksSoftwareDeveloper = () => (
       cloud.
     </ListItem>
     <ListItem>
-      • Used .NET, Node.Js, AWS Lambda, and the Serverless framework to rapidly
-      and seamlessly replace aging client functionality with durable cloud
+      • Used <InLineTechStack>.NET, Node.Js, AWS Lambda,</InLineTechStack> and
+      the <InLineTechStack>Serverless</InLineTechStack> framework to rapidly and
+      seamlessly replace aging client functionality with durable cloud
       alternatives.
     </ListItem>
     <ListItem>
-      • Used React and Typescript to build out our new, modern frontend in an
-      effort to slowly replace our legacy UI.
+      • Used <InLineTechStack>React and Typescript</InLineTechStack> to build
+      out our new, modern frontend in an effort to slowly replace our legacy UI.
     </ListItem>
     <ListItem>
-      • Used .NET and SQL to add features and address bugs in our legacy
-      codebase.
+      • Used <InLineTechStack>.NET and SQL</InLineTechStack> to add features and
+      address bugs in our legacy codebase.
     </ListItem>
     <ListItem>
       • Played a key role in preserving vital business integrations with major
@@ -148,12 +154,13 @@ const KarmakSoftwareDeveloper = () => (
       .
     </ListItem>
     <ListItem>
-      • Built durable, fault tolerant APIs in .NET, hosted on Azure Service
-      Fabric.
+      • Built durable, fault tolerant APIs in{" "}
+      <InLineTechStack>.NET,</InLineTechStack> hosted on{" "}
+      <InLineTechStack>Azure Service Fabric.</InLineTechStack>
     </ListItem>
     <ListItem>
-      • Exposed on-prem client functionality to the API using .NET, Visual
-      Basic, and SQL.
+      • Exposed on-prem client functionality to the API using{" "}
+      <InLineTechStack>.NET, Visual Basic, and SQL.</InLineTechStack>
     </ListItem>
     <ListItem>
       • Refactored persistence layer of a microservice from CosmosDB to Table
@@ -179,17 +186,20 @@ const KarmakSoftwareApprentice = () => (
       to accelerate my developer career and build valuable skills.
     </ListItem>
     <ListItem>
-      • Paired with senior developers on production frontend code in React.
+      • Paired with senior developers on production frontend code in{" "}
+      <InLineTechStack>React</InLineTechStack>.
     </ListItem>
     <ListItem>
-      • Created full stack web applications from start to completion using .NET,
-      Node.js/Express, React, and Azure.
+      • Created full stack web applications from start to completion using{" "}
+      <InLineTechStack>
+        .NET, Node.js/Express, React, and Azure.
+      </InLineTechStack>
     </ListItem>
     <ListItem>
       • Learned TDD through practice and Kata’s of non-production code.
     </ListItem>
     <ListItem>
-      • Studied <LightBold>Clean Code</LightBold> By Robert Martin.
+      • Studied <InLineTechStack>Clean Code</InLineTechStack> By Robert Martin.
     </ListItem>
     <ListItem>• Completed both independent and team assignments.</ListItem>
   </Card>
