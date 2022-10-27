@@ -75,8 +75,8 @@ const IndependentFreelancing = () => (
         <InLineTechStack>Flutter, Node.js, and AWS Lambda</InLineTechStack>.
       </ListItem>
       <ListItem>
-        • Took care to be auctioneer agnostic, with the long-term goal of
-        providing a white-label solution to other auctioneers.
+        • Provided input on product roadmap with the eventual goal to launch a
+        white-label solution.
       </ListItem>
       <ListItem>
         • Gained experience in directly communicating feature priority and
@@ -87,8 +87,7 @@ const IndependentFreelancing = () => (
       <SubHeader>Collegiate Tutor</SubHeader>
       <br />
       <ListItem>
-        Briefly worked as a private tutor for 4th year Computer Science
-        students.
+        Worked as a private tutor for 4th year Computer Science students.
       </ListItem>
       <ListItem>
         • Provided mentorship in{" "}
