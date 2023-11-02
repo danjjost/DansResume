@@ -1,11 +1,11 @@
 import Head from "next/head";
 import styled from "styled-components";
-import { Body, Container, FadeIn, Grid } from "../public/Styles";
+import { Body, Container, FadeIn, Grid } from "../src/Styles";
 import * as React from "react";
-import Header from "../public/resume/Header";
-import Bio from "../public/resume/Bio";
-import ProfessionalExperience from "../public/resume/ProfessionalExperience";
-import Sidebar from "../public/resume/Sidebar";
+import Header from "../src/resume/Header";
+import Bio from "../src/resume/Bio";
+import ProfessionalExperience from "../src/resume/ProfessionalExperience";
+import Sidebar from "../src/resume/Sidebar";
 
 export default function Home() {
   return (
