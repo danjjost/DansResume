@@ -1,7 +1,7 @@
 import { faKeyboard } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styled from "styled-components";
-import { Content, Indented, Title } from "../public/Styles.js";
+import { Content, Indented, Title } from "../Styles.js";
 import * as React from "react";
 
 const Skill = styled.div`
@@ -23,14 +23,15 @@ export default function TechnicalSummary() {
       </Title>
       <Indented>
         <Skill>React • Next.js</Skill> <Skill>Node.js • Typescript</Skill>
+        <Skill>C# • .NET</Skill>
         <Skill>React Native • Flutter</Skill>
         <Skill>AWS • DynamoDB</Skill>
         <Skill>Microsoft Azure • CosmosDB</Skill>
-        <Skill>C# • ASP.NET</Skill>
         <Skill>Java</Skill>
         <Skill>Dart</Skill>
         <Skill>Mongo</Skill>
         <Skill>SQL</Skill>
+        <Skill>Angular</Skill>
       </Indented>
     </Container>
   );

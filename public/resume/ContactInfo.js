@@ -2,7 +2,7 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faMobileAlt } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styled from "styled-components";
-import { Title, Content, Indented, Link } from "../public/Styles.js";
+import { Title, Content, Indented, Link } from "../Styles.js";
 import * as React from "react";
 
 const Container = styled(Content)`
@@ -34,7 +34,7 @@ export default function ContactInfo() {
         </Link>
         <ContactMethod>
           <FontAwesomeIcon size={"1x"} icon={faMobileAlt} color={"darkblue"} />{" "}
-          (314) 944-3846
+          (314) 896-1239
         </ContactMethod>
       </Indented>
     </Container>

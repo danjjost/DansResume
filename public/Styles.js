@@ -64,7 +64,7 @@ export const Row = styled.div`
 `;
 
 export const InLineTechStack = styled.span`
-  font-weight: 500;
+  font-weight: 700;
   font-size: 0.9rem;
 `;
 
@@ -81,4 +81,36 @@ export const SubHeader = styled.span`
 export const Subtext = styled.span`
   font-size: 0.8rem;
   font-weight: 10;
+`;
+
+export const Body = styled.div`
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+`;
+
+export const Grid = styled.div`
+  display: grid;
+  margin: 0.25rem;
+  grid-row-gap: 2rem;
+  grid-column-gap: 2rem;
+  grid-template-columns: 8fr 3fr;
+  grid-template-areas: "Bio Bio" "ProfessionalExperience TechnicalSummary" "ProfessionalExperience Education" "ProfessionalExperience ContactInfo";
+  max-width: 900px;
+  animation: ${FadeIn} 0.5s ease-in;
+  margin-bottom: 5rem;
+  @media (max-width: 700px) {
+    grid-template-columns: 1fr;
+    grid-row-gap: 3rem;
+    grid-template-areas: "Bio" "ProfessionalExperience" "Education" "TechnicalSummary" "ContactInfo";
+  }
+`;
+
+export const Container = styled.div`
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 `;

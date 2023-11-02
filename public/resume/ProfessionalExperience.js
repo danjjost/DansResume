@@ -8,7 +8,7 @@ import {
   Link,
   SubHeader,
   Header,
-} from "../public/Styles.js";
+} from "../Styles.js";
 import { faDesktop } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styled from "styled-components";
@@ -25,7 +25,9 @@ export default function ProfessionalExperience() {
         <FontAwesomeIcon size={"1x"} icon={faDesktop} /> Professional Experience
       </Title>
 
-      <IndependentFreelancing />
+      <MtechSystemsLeadDeveloper />
+
+      <FreelanceDeveloper />
 
       <ShipworksSoftwareDeveloper />
 
@@ -36,10 +38,44 @@ export default function ProfessionalExperience() {
   );
 }
 
-const IndependentFreelancing = () => (
+const MtechSystemsLeadDeveloper = () => (
   <Card>
     <Header>
-      Freelance Developer <Subtext>Independent, 3/2022 - Present</Subtext>
+      Senior Software Developer{" "}
+      <Subtext>Mtech Systems, 12/2022 - Present</Subtext>
+    </Header>
+    <ListItem>
+      Alongside a team of three other senior developers, I built and maintained
+      web applications for poultry farm automation in the IoT space.
+    </ListItem>
+    <ListItem>
+      • Used <InLineTechStack>.NET</InLineTechStack> with{" "}
+      <InLineTechStack>Azure Functions</InLineTechStack>,{" "}
+      <InLineTechStack>Azure IoT</InLineTechStack>, and{" "}
+      <InLineTechStack>CosmosDB</InLineTechStack> to enable real-time reporting
+      of sensor data for our users.
+    </ListItem>
+    <ListItem>
+      • Enabled push notifications for our users using{" "}
+      <InLineTechStack>Azure Notification Hubs</InLineTechStack> for critical
+      sensor events.
+    </ListItem>
+    <ListItem>
+      • Used <InLineTechStack>Angular</InLineTechStack> and{" "}
+      <InLineTechStack>Ionic</InLineTechStack> to host a cross-platform mobile
+      application along with two supplemental web applications.
+    </ListItem>
+    <ListItem>
+      • Made use of <InLineTechStack>Azure DevOps</InLineTechStack> to manage
+      CI/CD pipelines for all applications.
+    </ListItem>
+  </Card>
+);
+
+const FreelanceDeveloper = () => (
+  <Card>
+    <Header>
+      Freelance Developer <Subtext>Independent, 3/2022 - 12/2022</Subtext>
     </Header>
     <ListItem>
       <SubHeader>Seatitude Startup</SubHeader>
@@ -47,10 +83,6 @@ const IndependentFreelancing = () => (
       <ListItem>
         Worked as part of a small agile team to create a table management
         application for a local restaurant.
-      </ListItem>
-      <ListItem>
-        • Directly participated in finding, vetting, and recruiting additional
-        talent for the project.
       </ListItem>
       <ListItem>
         • Built a <InLineTechStack>.NET/AWS Lambda</InLineTechStack> backend
@@ -73,10 +105,6 @@ const IndependentFreelancing = () => (
       <ListItem>
         • Designed and implemented a full-stack prototype using{" "}
         <InLineTechStack>Flutter, Node.js, and AWS Lambda</InLineTechStack>.
-      </ListItem>
-      <ListItem>
-        • Provided input on product roadmap with the eventual goal to launch a
-        white-label solution.
       </ListItem>
       <ListItem>
         • Gained experience in directly communicating feature priority and

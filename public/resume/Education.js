@@ -1,7 +1,7 @@
 import { faBookOpen } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styled from "styled-components";
-import { Title, Header, Subtext, Indented, Content } from "../public/Styles.js";
+import { Title, Header, Subtext, Indented, Content } from "../Styles.js";
 import * as React from "react";
 
 const Container = styled(Content)`
