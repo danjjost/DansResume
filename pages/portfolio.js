@@ -3,7 +3,7 @@ import { Body, Container } from "../src/Styles";
 import PortfolioHeader from "../src/portfolio/PortfolioHeader";
 import Gallery from "../src/portfolio/Gallery";
 import * as React from "react";
-import { useWidth } from "../src/hooks/useWidth";
+import useWidth from "../src/hooks/useWidth";
 
 const sonarWebImages = [
   "../images/SonarWeb-Login.png",
