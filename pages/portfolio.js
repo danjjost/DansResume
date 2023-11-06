@@ -3,7 +3,6 @@ import React from "react";
 import { Body, Container } from "../src/Styles";
 import PortfolioHeader from "../src/portfolio/PortfolioHeader";
 import Gallery from "../src/portfolio/Gallery";
-import SonarWebGallery from "../src/portfolio/SonarWebGallery";
 
 const sonarWebImages = [
   "../images/SonarWeb-Login.png",

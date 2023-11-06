@@ -97,7 +97,7 @@ export const Grid = styled.div`
   grid-template-columns: 8fr 3fr;
   grid-template-areas: "Bio Bio" "ProfessionalExperience TechnicalSummary" "ProfessionalExperience Education" "ProfessionalExperience ContactInfo";
   max-width: 900px;
-  animation: ${FadeIn} 0.5s ease-in;
+  animation: ${FadeIn} 1s;
   margin-bottom: 5rem;
   @media (max-width: 700px) {
     grid-template-columns: 1fr;
@@ -108,6 +108,7 @@ export const Grid = styled.div`
 
 export const Container = styled.div`
   min-height: 100vh;
+  animation: ${FadeIn} 1s;
   padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
