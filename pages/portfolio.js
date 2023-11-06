@@ -26,7 +26,42 @@ const shipWorksHubImages = [
 
 const unityImage = ["../images/KarmakUnity.png"];
 
+const useWidth = () => {
+  const [width, setWidth] = React.useState(0);
+
+  React.useEffect(() => {
+    const pollForWidth = () => {
+      if (typeof window !== "undefined" && window.innerWidth) {
+        setWidth(window.innerWidth);
+      } else {
+        // If window or window.innerWidth is not defined, try again after 100ms
+        setTimeout(pollForWidth, 100);
+      }
+    };
+
+    pollForWidth();
+  }, []);
+
+  React.useEffect(() => {
+    const handleResize = () => {
+      setWidth(window.innerWidth);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
+  return width;
+};
+
 export default function WebPortfolio() {
+  const width = useWidth();
+  const activeWidth = width - 200;
+  console.log(activeWidth);
+
   return (
     <Container>
       <Head>
@@ -35,19 +70,30 @@ export default function WebPortfolio() {
       </Head>
       <Body>
         <PortfolioHeader />
-        <Gallery width={500} imagePaths={sonarWebImages} title={"Sonar Web"} />
+        <br />
         <Gallery
-          width={300}
+          activeWidth={activeWidth}
+          imagePaths={sonarWebImages}
+          title={"Sonar Web"}
+        />
+
+        <br />
+        <Gallery
+          activeWidth={activeWidth}
           imagePaths={sonarAppImages}
           title={"Mtech - Sonar App"}
         />
+
+        <br />
         <Gallery
-          width={500}
+          activeWidth={activeWidth}
           imagePaths={shipWorksHubImages}
           title={"Shipworks - Hub"}
         />
+
+        <br />
         <Gallery
-          width={1000}
+          activeWidth={activeWidth}
           imagePaths={unityImage}
           title={"Shipworks - Hub"}
         />

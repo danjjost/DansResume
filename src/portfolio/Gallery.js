@@ -1,7 +1,7 @@
 import ImageViewer from "react-simple-image-viewer";
 import * as React from "react";
 
-export default function Gallery({ imagePaths, title, width }) {
+export default function Gallery({ imagePaths, title, activeWidth }) {
   const [currentImage, setCurrentImage] = React.useState(0);
   const [isViewerOpen, setIsViewerOpen] = React.useState(false);
 
@@ -37,7 +37,7 @@ export default function Gallery({ imagePaths, title, width }) {
           <img
             src={src}
             onClick={() => openImageViewer(index)}
-            width={width || "300px"}
+            width={activeWidth / imagePaths.length || "300px"}
             key={index}
             style={{ margin: "2px" }}
             alt=""
