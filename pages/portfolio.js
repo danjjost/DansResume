@@ -31,16 +31,12 @@ export default function WebPortfolio() {
   return (
     <Container>
       <Head>
-        <title>Web Portfolio</title>
+        <title>Frontend Development Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Body>
         <PortfolioHeader />
-        <Gallery
-          width={500}
-          imagePaths={sonarWebImages}
-          title={"Mtech - Sonar Web"}
-        />
+        <Gallery width={500} imagePaths={sonarWebImages} title={"Sonar Web"} />
         <Gallery
           width={300}
           imagePaths={sonarAppImages}

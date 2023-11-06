@@ -26,9 +26,12 @@ export default function PortfolioHeader() {
   return (
     <>
       <Container>
-        <Title>Web Development Portfolio</Title>
+        <Title>Frontend Development Portfolio</Title>
       </Container>
-      <BioStyles>Photos of websites I've worked on</BioStyles>
+      <BioStyles>
+        A short gallery of the some of the frontend solutions I've had the
+        opportunity to contribute to.
+      </BioStyles>
       <br />
     </>
   );
