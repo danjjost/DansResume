@@ -47,7 +47,7 @@ export default function Gallery({ imagePaths, title, activeWidth, icon }) {
             // @ts-ignore
             spins={icon !== "angular"}
             width={50}
-            src={`../images/tech-icons/${icon}.png`}
+            src={`../images/${icon}.png`}
           />
           <div style={{ marginLeft: "10px" }}>{title}</div>
         </Title>
