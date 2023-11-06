@@ -1,6 +1,6 @@
 import React from "react";
 
-export const useWidth = () => {
+export default function useWidth() {
   const [width, setWidth] = React.useState(0);
 
   React.useEffect(() => {
@@ -29,4 +29,4 @@ export const useWidth = () => {
   }, []);
 
   return width;
-};
+}
