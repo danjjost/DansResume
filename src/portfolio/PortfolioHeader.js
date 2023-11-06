@@ -20,17 +20,24 @@ const BioStyles = styled.div`
   align-items: center;
   border-left: 1px solid lightgray;
   font-size: 1rem;
+  width: min;
 `;
 
+const Email = styled.div`
+  opacity: 0.6;
+  text-align: center;
+  padding-left: 1rem;
+`;
 export default function PortfolioHeader() {
   return (
     <>
       <Container>
-        <Title>Frontend Development Portfolio</Title>
+        <Title style={{ textAlign: "center" }}>Frontend Portfolio</Title>
+        <Email>Dan.J.Jost@gmail.com</Email>
       </Container>
-      <BioStyles>
+      <BioStyles style={{ textAlign: "center", placeSelf: "center" }}>
         A short gallery of the some of the frontend solutions I've had the
-        opportunity to contribute to.
+        opportunity to work on.
       </BioStyles>
       <br />
     </>
