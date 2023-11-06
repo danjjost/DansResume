@@ -2,8 +2,8 @@ import Head from "next/head";
 import { Body, Container } from "../src/Styles";
 import PortfolioHeader from "../src/portfolio/PortfolioHeader";
 import Gallery from "../src/portfolio/Gallery";
-import { useWidth } from "./useWidth";
 import * as React from "react";
+import { useWidth } from "../src/hooks/useWidth";
 
 const sonarWebImages = [
   "../images/SonarWeb-Login.png",
