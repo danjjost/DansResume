@@ -33,7 +33,7 @@ export default function Gallery({ imagePaths, title, activeWidth, icon }) {
   };
 
   return (
-    <div style={{ margin: "5vh" }}>
+    <div style={{ margin: "4vh" }}>
       {title && (
         <Title
           style={{
