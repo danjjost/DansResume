@@ -17,8 +17,8 @@ export default function Bio() {
     <Container>
       <BioStyles>
         Full stack developer with strong .NET / Node.js back-end experience and
-        a passion for all things front-end. My current focus is React and
-        Microservices.
+        a passion for all things front-end. My current focus is data science and
+        machine learning.
       </BioStyles>
     </Container>
   );

@@ -25,6 +25,8 @@ export default function ProfessionalExperience() {
         <FontAwesomeIcon size={"1x"} icon={faDesktop} /> Professional Experience
       </Title>
 
+      <WashUAppDeveloper />
+
       <MtechSystemsLeadDeveloper />
 
       <FreelanceDeveloper />
@@ -38,11 +40,43 @@ export default function ProfessionalExperience() {
   );
 }
 
+const WashUAppDeveloper = () => (
+  <Card>
+    <Header>
+      Application Developer III{" "}
+      <Subtext>Washington University, 1/2024 - Present</Subtext>
+    </Header>
+    <ListItem>
+      Collaborated with stakeholders, end users, and fellow developers to
+      swiftly deliver integrations as part of a complete student system
+      overhaul.
+    </ListItem>
+    <ListItem>
+      • Used <InLineTechStack>C# / .NET</InLineTechStack> to craft microservices
+      tailored to department-specific needs.
+    </ListItem>
+    <ListItem>
+      • Adhered rigorously to unit testing best practices, leveraging the{" "}
+      <InLineTechStack>xUnit</InLineTechStack> framework to ensure applications
+      are implemented precisely without relying on late-stage QA testing.
+    </ListItem>
+    <ListItem>
+      • Built user-friendly <InLineTechStack>Blazor</InLineTechStack>{" "}
+      applications secured by SSO to conveniently streamline administrative
+      tasks.
+    </ListItem>
+    <ListItem>
+      • Proactively navigated bureaucratic red tape by conducting research and
+      preforming preparatory work ahead of formal approvals.
+    </ListItem>
+  </Card>
+);
+
 const MtechSystemsLeadDeveloper = () => (
   <Card>
     <Header>
       Senior Software Developer{" "}
-      <Subtext>Mtech Systems, 12/2022 - Present</Subtext>
+      <Subtext>Mtech Systems, 12/2022 - 11/2023</Subtext>
     </Header>
     <ListItem>
       Alongside a team of three other senior developers, I built and maintained
@@ -81,8 +115,8 @@ const FreelanceDeveloper = () => (
       <SubHeader>Seatitude Startup</SubHeader>
       <br />
       <ListItem>
-        Worked as part of a small agile team to create a table management
-        application for a local restaurant.
+        Worked as part of an independent, agile team to create a table
+        management application for a local restaurant.
       </ListItem>
       <ListItem>
         • Built a <InLineTechStack>.NET/AWS Lambda</InLineTechStack> backend
@@ -115,7 +149,8 @@ const FreelanceDeveloper = () => (
       <SubHeader>Collegiate Tutor</SubHeader>
       <br />
       <ListItem>
-        Worked as a private tutor for 4th year Computer Science students.
+        Worked as a private tutor for 4th year Computer Science students,
+        providing practical guidance and application-centric experience.
       </ListItem>
       <ListItem>
         • Provided mentorship in{" "}

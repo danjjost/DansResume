@@ -22,8 +22,10 @@ export default function TechnicalSummary() {
         <FontAwesomeIcon icon={faKeyboard} size={"1x"} /> Technical Summary
       </Title>
       <Indented>
-        <Skill>React • Next.js</Skill> <Skill>Node.js • Typescript</Skill>
-        <Skill>C# • .NET</Skill>
+        <Skill>C# • .NET • Blazor</Skill>
+        <Skill>React • Next.js</Skill>
+        <Skill>Node.js • Typescript</Skill>
+        <Skill>Python • Pytorch</Skill>
         <Skill>React Native • Flutter</Skill>
         <Skill>AWS • DynamoDB</Skill>
         <Skill>Microsoft Azure • CosmosDB</Skill>
