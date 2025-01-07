@@ -34,7 +34,7 @@ export default function ContactInfo() {
         </Link>
         <ContactMethod>
           <FontAwesomeIcon size={"1x"} icon={faMobileAlt} color={"darkblue"} />{" "}
-          (314) 324-4568
+          (314) 329-4568
         </ContactMethod>
       </Indented>
     </Container>
