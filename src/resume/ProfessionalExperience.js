@@ -52,6 +52,11 @@ const WashUAppDeveloper = () => (
       overhaul.
     </ListItem>
     <ListItem>
+      • Developed an internal, chat-based <InLineTechStack>LLM</InLineTechStack>{" "}
+      assistant using <InLineTechStack>Azure OpenAI</InLineTechStack> to allow
+      students and professors to securely leverage AI.
+    </ListItem>
+    <ListItem>
       • Used <InLineTechStack>C# / .NET</InLineTechStack> to craft microservices
       tailored to department-specific needs.
     </ListItem>

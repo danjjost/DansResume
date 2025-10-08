@@ -23,8 +23,8 @@ export default function TechnicalSummary() {
       </Title>
       <Indented>
         <Skill>C# • .NET • Blazor</Skill>
-        <Skill>React • Next.js</Skill>
         <Skill>Node.js • Typescript</Skill>
+        <Skill>React • Next.js</Skill>
         <Skill>Python • Pytorch</Skill>
         <Skill>React Native • Flutter</Skill>
         <Skill>AWS • DynamoDB</Skill>
